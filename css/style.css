@@ -1,0 +1,868 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: Verdana, Tahoma, sans-serif;
+    overflow-x: hidden;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* toute les parties */
+
+
+a{
+    text-decoration: none;
+    color:rgba(248, 133, 2, 0.849) ;
+}
+
+a:hover{
+    text-decoration: none;
+
+}
+
+.color-green{
+    color: #83b582;
+}
+
+.button-search{
+    color: #ffffff;
+    background-color: #83b582;
+    border-radius: 30px;
+    padding: 8px 25px;
+    transition: 0.8s;
+    border:  none;
+    cursor: pointer;
+}
+
+.button-search:hover{
+    color: #83b582;
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 8px 25px;
+    transition: 0.8s;
+    border: 2px solid #83b582;
+}
+
+.content-center{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.icon{
+    width: 30px;
+}
+
+.icon1{
+    width: 50px;
+}
+
+.navbar-img{
+    width: 50px;
+}
+
+.mb-30{
+    margin-bottom: 30px
+}
+
+
+/* NAVBAR ********************************************* */
+
+
+#header .navbar{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar-text{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navbar-toggler-button{
+    background-color: #46462e;
+}
+
+.nav li{
+    display: block;
+    padding: 15px 10px;
+    list-style: none;
+}
+
+.nav li a{
+    color: white;
+    text-transform: capitalize;
+    font-size: 19px;
+    transition: 0.3s;
+}
+
+.nav li a:hover{
+    color: #d6e4aa;
+    transition: 0.3s;
+}
+
+.color-text{
+    color: #d6e4aa;
+    font-weight: bold;
+}
+
+
+/* jQuery Styles */
+.navbar-scroll {
+	background-color: rgb(24, 77, 77) ;
+	padding: 0;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.966);
+	transition-duration: 0.6s;
+}
+.nav-dropdown-scroll {
+	background: #8eacac;
+
+}
+
+
+
+/* carousole */
+
+
+
+#slide{
+    text-align: center;
+    background-image:url(../images/h.jpeg);
+    height: 350px;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.slide-content{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    text-align: center;
+   
+}
+
+.slide-content h1{
+    color: white;
+    margin-bottom: 45px;
+    text-transform: capitalize;
+    text-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.89);
+}
+
+.slide-content a {
+    font-size:30px;
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 8px 25px;
+    transition: 0.8s;
+
+}
+
+.slide-content a:hover {
+	color: rgba(248, 133, 2, 0.849);
+    background-color:transparent;
+    border: 2px solid  rgba(248, 133, 2, 0.849);
+    transition: 0.8s;
+}
+
+
+
+/* SECTION-UNE  */
+
+
+
+#section-one{
+    min-height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/gold.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sectionOne-header{
+    padding: 60px 0px
+}
+
+.divider-green{
+    width: 200px;
+    height: 3px;
+    background-color: rgba(248, 133, 2, 0.849);
+    margin: auto;
+    border-radius: 20px;
+}
+
+.sectionOne-header h3{
+    font-weight: bold;
+    color: rgba(248, 133, 2, 0.849);
+}
+
+.one-circle{
+    width: 120px;
+    height: 120px;
+    border-top-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+    border: 3px solid rgba(248, 133, 2, 0.849);
+    margin: 0 auto 15px;
+}
+
+.img-fluid{
+    border-top-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+    border: 3px solid rgba(248, 2, 14, 0);
+}
+
+
+
+/* SECTION-TWO ********************************************* */
+
+
+
+#section-two{
+    /* min-height: 300px; */
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/metro.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sectionTwo{
+    padding: 40px;
+}
+.sectionTwo h3{
+    text-align: center;
+    color: white;
+    margin-bottom: 35px;
+    font-weight: bold;
+}
+
+.forms label{
+    color: #83b582;
+    font-style: italic;
+}
+
+.sectionTwo-form{
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+    padding: 7px;
+}
+
+.sectionTwo-form .option{
+    background-color: #83b582;
+}
+
+
+
+/* SECTION-TREE ********************************************* */
+
+
+.section-tree_main{
+    padding: 20px;
+}
+
+#section-tree{
+    background-color: #232231;
+    min-height: 110px;
+}
+
+.sectionTree-icon {
+    color:  rgba(248, 133, 2, 0.849);
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.sectionTree-icon_car{
+    font-size: 30px;
+}
+
+.sectionTree-p{
+    color:white;
+    font-style: italic;
+}
+
+
+.sectionTree span{
+    font-size: 45px;
+    color: white;
+}
+
+.compteur1{
+    font-size: 18px;
+}
+
+
+
+/* SECTION-FOR ********************************************* */
+
+
+
+.section-for{
+    background-color: #dcdcdc;
+    min-height: 650px;
+}
+
+.section-for_title{
+    padding: 60px;
+}
+
+.section-for_title h4{
+    text-align: center;
+    color: #83b582;
+    font-weight: 600;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.cardFor{
+    
+    margin: 10px;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    transition: all 0.7s ease-out;
+}
+
+.cardFor:hover{
+    background-color: white;
+    transition: all 0.7s ease-out;
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.32);
+}
+
+.cardFor-block{
+    border: 2px solid  rgba(248, 133, 2, 0.849);
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.32);
+
+}
+
+.cardFor-header{
+    width: 150px;
+}
+
+.cardFor-header img{
+    padding-top: 15px;
+}
+
+.cardFor-body{
+    padding: 20px;
+}
+
+.cardFor-body h4{
+    font-size: 20px;
+    color: #83b582;
+    font-weight: bold;
+}
+
+.cardFor-body p{
+    font-size: 12px;
+    padding: 10px;
+}
+
+.cardFor-body a {
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #232231;
+    border-radius: 5px;
+    padding: 8px 25px;
+    transition: 0.8s;
+}
+
+
+
+/* SECTION-FIVE ********************************************* */
+
+
+.section-five{
+    background-color: rgba(248, 133, 2, 0.849);
+    min-height: 200px;
+}
+
+.section-five_title h3{
+    text-align: center;
+    color: #232231;
+    font-size: 40px;    
+}
+
+.sectionFive-img1{
+    background-image: url('../images/moov\ logo.jpg');
+}
+
+.sectionFive-img2{
+    background-image: url('../images/Orange.png');
+}
+
+.sectionFive-img3{
+    background-image: url('../images/airtel.jpg');
+}
+
+.sectionFive-img4{
+    background-image: url('../images/LOGO-NITA-PNG-960x666.png');
+}
+
+.sectionFive-img5{
+    background-image: url('../images/Visa.jpeg');
+}
+
+.sectionFive-img6{
+    background-image: url('../images/cipmen-niamey-niger-innovation-afrique-tech-startups-300x291.png');
+}
+
+.sectionFive-img1,
+.sectionFive-img2,
+.sectionFive-img3,
+.sectionFive-img4,
+.sectionFive-img5,
+.sectionFive-img6{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px auto;
+    height: 60px;
+    transition: all 0.4s ease-out;
+    justify-content: center;
+}
+
+.sectionFive-img1:hover,
+.sectionFive-img2:hover,
+.sectionFive-img3:hover,
+.sectionFive-img4:hover,
+.sectionFive-img5:hover,
+.sectionFive-img6:hover{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+
+/* SECTION-SIX ********************************************* */
+
+
+
+.section-six{
+    min-height: 200px;
+    background-color: rgba(248, 133, 2, 0.849);
+    position: relative;
+}
+
+.section-six_mainContent{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%,-10%)
+}
+
+.section-six_title h4{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+
+.sectionSix-form_input{
+    width: 80%;
+    height: 40px;
+    padding-left: 20px;
+}
+
+.sectionSix-form_input:focus{
+    outline: none;
+    border: 1px solid #232231; 
+}
+
+.button-submit{
+    height: 40px;
+    width: 80%;
+    background-color:rgb(24, 77, 77)  ;
+    color: white;
+    border: none;
+    transition: all 0.5s;
+}
+
+.button-submit:hover{
+    height: 40px;
+    min-width: 80%;
+    background-color: #232231da;
+    color: white;
+    border: none;
+    transition: all 0.5s;
+}
+
+/* SLIDE-IMAGE 2 ******************************************* */
+
+
+
+.carousel-img img{
+    height: 300px;
+    min-width: 100%;
+}
+
+.carousel-tilte{
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+}
+
+.carousel-tilte h4{
+    font-size: 35px;
+}
+
+.carousel-img1{
+    background-color:white ;
+}
+
+.carousel-img2{
+    background-color:white ;
+}
+.carousel-img3{
+    background-color:white ;
+}
+
+.carousel-img1,
+.carousel-img2,
+.carousel-img3
+{
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.carousel-care{
+    background-color: rgba(248, 133, 2, 0.849);
+    color:  rgba(248, 133, 2, 0.849);
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    transition: all 0.3s;
+}
+
+.carousel-pre{
+    transition: all 0.3s;
+}
+
+.rond{
+    width: 130px;
+    height: 130px;
+    border-radius: 35%;
+    border: 3px solid rgba(248, 133, 2, 0.849);
+
+}
+
+
+/* MAIN-CONTENT ******************************************* */
+
+
+.main-content{
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+    min-height: 800px;
+    background-color: #edebf0;
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1000;
+}
+
+.about{
+    padding: 50px;
+}
+
+.mainContent_aboutTitle{
+    padding: 30px;
+}
+
+.mainContent_aboutTitle h2{
+    color: #83b582;
+    font-weight: bold;
+}
+
+.mainContent_aboutBody p{
+    text-align: justify;
+}
+
+.button-green{
+    background-color: #83b582;
+    padding: 11px 16px;
+    color: white;
+    border: none;
+    transition: all 0.5s;
+}
+
+.button-green:hover{
+    background-color: #232231;
+    padding: 11px 16px;
+    color: white;
+    border: none;
+    transition: all 0.5s;
+}
+
+.about-image{
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/homme-affaires-africain-americain-marchant-aeroport-bagages_33839-7434.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* OUR-TEAM ******************************************* */
+
+
+.ourteam{
+    margin: 50px;
+}
+
+.ourteam-title h5{
+    text-align: center;
+    color: #232231;
+    font-size: 23px;
+}
+
+.ourteam-title::after{
+    content: '';
+    position: absolute;
+    background-color: #83b582;
+    width: 8%;
+    height: 4px;
+    border-radius: 15%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.ourteam-card{
+    border: 1px solid #232231;
+    border-radius: 0px;
+    margin: 10px;
+}
+
+.card-image{
+    background-color: #83b582;
+    padding: 10px;
+}
+
+.card-image h6{
+    font-weight: bold;
+}
+
+
+/* FOOTER ********************************************* */
+
+
+
+.footer{
+    min-height: 180px;
+    background-color: rgb(24, 77, 77);
+}
+
+.footer-content{
+    padding: 40px;
+}
+
+.footer-col{
+    padding: 0;
+    min-width: 250px;
+}
+
+.footer-block{
+    margin: auto;
+}
+
+.footer-part1_img .navbar-img{
+    margin-bottom: 20px;
+}
+
+.footer-part1 p{
+    margin-bottom: 20px;
+}
+
+.footer-part1 p{
+    color: rgb(216, 212, 212);
+    font-style: italic; 
+    text-align: justify;
+}
+
+.footer-part1 p:hover{
+    color: rgb(243, 240, 240);
+    font-style: italic; 
+}
+
+.footer-part2 ul li,
+.footer-part3 ul li{
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+.footer-part2 ul li a,
+.footer-part3 ul li a{
+    color: rgb(243, 240, 240);
+}
+
+.footer-part2 ul li a:hover,
+.footer-part3 ul li a:hover{
+    color: rgba(243, 240, 240, 0.7);
+} 
+
+.footer-part2 h5,
+.footer-part3 h5{
+    color: rgba(248, 133, 2, 0.849);
+    font-weight: 800;
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+.footer-part3_card img{
+    margin-right: 15px;
+}
+
+.footer-part4{
+    width: 60px;
+    height: 60px;
+    background-color: #83b582;
+    border-radius: 8px;
+}
+
+.footer-part4 a{
+    font-size: 40px;
+    color: white;
+}
+
+.footer-copy{
+    background-color: white;
+    padding: 15px;
+}
+
+
+@media screen and (min-width:300px) and (max-width:768px){
+    .section-for_title{
+        padding: 30px;
+    }
+
+    .section-for_title h4{
+        font-size: 20px;
+    }
+
+    .section-five_title h3{
+        font-size: px;
+    }
+}
+
+@media screen and (max-width:990px){
+    .nav{
+        background-color: rgb(24, 77, 77) !important ;
+    }
+
+    .nav li{
+        margin: auto;
+    }
+
+    .navbar-scroll {
+        padding: 20px;
+    }
+    
+    .navbar-contact{
+        display: none;
+    }
+}
+
+@media screen and (max-width:400px){
+
+    .navbar-img{
+        width: 25px;
+    }
+
+    .mainContent_aboutTitle h2{
+        color: #83b582;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .navbar-text{
+        font-size: 15px;
+    }
+
+    .button-submit{
+        min-width: 50px;
+        min-width: 50px;
+
+    }
+    
+    .button-submit:hover{
+        min-width: 50%;
+    }
+
+
+    .sectionSix-form_bock .mb-30{
+        min-width: 60px;
+    }
+
+    .about1{
+        display: none;
+    }
+
+    .footer-part4{
+        margin: auto;
+    }
+
+    .navbra-contact img{
+        display: none;
+    }
+
+    .sectionTree-card{
+        max-width: 150px;
+        margin: 8px;
+    }
+
+    .sectionFive{
+        max-width: 100px;
+    }
+
+    .sectionSix-form_bock{
+        display: flex;
+    }
+
+    .forms_input{
+        max-width: 210px;
+        height: 40px;
+    }
+
+    .forms-button{
+        max-width: 100px;
+        height: 40px;
+        background-color: #232231;
+    }
+
+    .sectionSix-form_input{
+        width: 100%;
+    }
+    
+
+    .button-submit{
+        height: 40px;
+        max-width: 100px;
+    }
+    
+    .button-submit:hover{
+        max-width: 60px;
+        background-color: transparent;
+        color: white;
+        border: none;
+        transition: all 0.5s;
+    }
+
+}
+
+
+
+
